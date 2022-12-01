@@ -1,8 +1,8 @@
 collections:
   - name: cisco.ios
-    version: 4.0.0
-  - name: cisco.nxos
     version: 4.1.0
+  - name: cisco.nxos
+    version: 4.0.1
   - name: cisco.iosxr
     version: 4.0.3
   - name: vyos.vyos
