@@ -60,12 +60,12 @@ jobs:
           username: ${{ secrets.REDHAT_USERNAME }}
           password: ${{ secrets.REDHAT_PASSWORD }}
 
-      # - name: Substitute token for Automation Hub
-      #   id: ah-token
-      #   run: |
-      #     sed -i "s/my_token/$AH_TOKEN/1" ansible.cfg
-      #   env:
-      #     AH_TOKEN: ${{ secrets.AH_TOKEN }}
+      - name: Substitute token for Automation Hub
+        id: ah-token
+        run: |
+          sed -i "s/my_token/$AH_TOKEN/1" ansible.cfg
+        env:
+          AH_TOKEN: ${{ secrets.AH_TOKEN }}
 
       - name: Set up VERSION for container tag
         run: |
