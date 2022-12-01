@@ -5,11 +5,11 @@
 ## Inspect an Image
 
 ```bash
-podman run -it quay.io/rohitthakur2590/ee-general-image /bin/bash
+podman run -it quay.io/rothakur18/ee-network-image /bin/bash
 ```
 
 ## Documentation
-- [Ansible Links](https://github.com/nleiva/ansible-links)
+- [Ansible Links]()
 - [Automating execution environment image builds with GitHub Actions](https://www.ansible.com/blog/automating-execution-environment-image-builds-with-github-actions)
 
 ### Ansible projects
