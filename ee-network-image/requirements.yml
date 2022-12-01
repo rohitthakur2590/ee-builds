@@ -5,6 +5,8 @@ collections:
     version: 4.0.1
   - name: cisco.iosxr
     version: 4.0.3
+  - name: vyos.vyos
+    version: 4.0.0
   - name: arista.eos
     version: 6.0.0
   - name: junipernetworks.junos
