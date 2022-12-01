@@ -84,8 +84,8 @@ jobs:
         uses: redhat-actions/podman-login@v1
         with:
           registry: quay.io
-          username: ${{ inputs.QUAY_USER }}
-          password: ${{ secrets.QUAY_PASSWORD }}
+          username: ${{ secrets.REDHAT_USERNAME }}
+          password: ${{ secrets.REDHAT_PASSWORD }}
 
       - name: Push to quay.io
         id: push-to-quay
@@ -96,6 +96,8 @@ jobs:
             ${{ inputs.EE_IMAGE_TAG }}
             ${{ env.EE_VERSION }}
           registry: quay.io/${{ inputs.QUAY_USER }}/
+          username: ${{ secrets.REDHAT_USERNAME }}
+          password: ${{ secrets.REDHAT_PASSWORD }}
 
       - name: Print image URL
         run: |
