@@ -21,5 +21,5 @@ collections:
     version: 1.4.0
   - name: community.general
     version: 6.0.1
-  - name: network.base
+  - name: network.bgp
     version: 1.2.0
