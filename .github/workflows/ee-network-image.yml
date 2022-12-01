@@ -24,7 +24,7 @@ jobs:
     with:
       EE_FOLDER_NAME: 'ee-network-image'
       EE_IMAGE_TAG: 'latest'
-      QUAY_USER: 'rohitthakur2590'
+      QUAY_USER: 'rothakur18'
     secrets:
       REDHAT_USERNAME: ${{ secrets.REDHAT_USERNAME }}
       REDHAT_PASSWORD: ${{ secrets.REDHAT_PASSWORD }}
