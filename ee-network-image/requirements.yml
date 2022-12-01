@@ -2,7 +2,7 @@ collections:
   - name: cisco.ios
     version: 4.0.0
   - name: cisco.nxos
-    version: 4.0.1
+    version: 4.1.0
   - name: cisco.iosxr
     version: 4.0.3
   - name: vyos.vyos
@@ -21,5 +21,3 @@ collections:
     version: 1.4.0
   - name: community.general
     version: 6.0.1
-  - name: network.bgp
-    version: 1.2.0
