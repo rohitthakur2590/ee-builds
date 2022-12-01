@@ -10,5 +10,3 @@ dependencies:
   galaxy: requirements.yml
   python: requirements.txt
   system: bindep.txt
-
-
